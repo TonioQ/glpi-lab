@@ -1,0 +1,30 @@
+# OS crap
+.DS_Store
+
+# Logs
+*.log
+
+# VM artifacts (never commit)
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.ovf
+*.vbox
+*.ova
+
+# Python stuff
+__pycache__/
+*.pyc
+
+# Credentials or secrets (just in case)
+*.env
+secrets.txt
+
+# Backup files
+*.bak
+*.tmp
+
+# Editor folders
+.idea/
+.vscode/
